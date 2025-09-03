@@ -1,4 +1,4 @@
-const modulo = require('./meuModulo'); // Importando o módulo
+const modulo = require('../meuModulo'); // Importando o módulo
 const calculadora_idade = require('./calculadora-idade');
 
 const mensagem = modulo.saudacao('artur'); // Executando a função
