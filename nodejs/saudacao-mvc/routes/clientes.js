@@ -4,7 +4,7 @@ const clientesController = require('../controllers/clientesController');
 
 router.get("/", clientesController.clientes);
 router.get("/login", clientesController.login);
-router.post("/liberado", clientesController.liberado);
+router.post("/verificado", clientesController.verificado);
 
 
 module.exports = router;

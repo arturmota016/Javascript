@@ -10,7 +10,7 @@ module.exports = {
         res.sendFile('login.html', { root: './views' });
     },
 
-    liberado: (req, res) => {
+    verificado: (req, res) => {
     const { nome, senha } = req.body;
     const mensagem = clientesdoModel.gerarMensagemPersonalizada(nome, senha);
       res.send(`<h1>${mensagem}</h1>`);
